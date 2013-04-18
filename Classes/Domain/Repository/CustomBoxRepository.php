@@ -33,7 +33,6 @@ namespace TYPO3\Custombox\Domain\Repository;
  */
 
 class CustomBoxRepository extends \TYPO3\CMS\Extbase\Persistence\Repository {
-
 	// $this->objectRepository->setDefaultOrderings(array( 'title' => Tx_Extbase_Persistence_QueryInterface::ORDER_ASCENDING));
 
 	// *
@@ -50,7 +49,6 @@ class CustomBoxRepository extends \TYPO3\CMS\Extbase\Persistence\Repository {
 	// 	$result = $this->createQuery()->setOrderings($setDefaultOrderings)->execute();
 	// 	return $result;
 	// }
-
 }
 
 ?>

@@ -100,13 +100,15 @@ $TCA['tx_custombox_domain_model_custombox'] = array(
 				'type' => 'inline',
 				'foreign_table' => 'tx_custombox_domain_model_boxinhalt',
 				'foreign_field' => 'custombox',
+				'foreign_sortby' => 'sorting',
 				'maxitems'      => 9999,
 				'appearance' => array(
-					'collapseAll' => 0,
+					'collapseAll' => 1,
 					'levelLinksPosition' => 'top',
 					'showSynchronizationLink' => 1,
 					'showPossibleLocalizationRecords' => 1,
-					'showAllLocalizationLink' => 1
+					'showAllLocalizationLink' => 1,
+					'useSortable' => 1
 				),
 			),
 		),

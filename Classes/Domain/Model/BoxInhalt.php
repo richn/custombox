@@ -95,6 +95,22 @@ class BoxInhalt extends \TYPO3\CMS\Extbase\DomainObject\AbstractEntity {
 	 * @var \TYPO3\Custombox\Domain\Model\Icon
 	 */
 	protected $icon;
+	
+	/**
+	 * sorting
+	 *
+	 * @var int
+	 */
+	protected $sorting;
+	
+	/**
+	 * Returns the sorting
+	 *
+	 * @return \int $sorting
+	 */
+	public function getSorting() {
+		return $this->sorting;
+	}
 
 	/**
 	 * Returns the title
