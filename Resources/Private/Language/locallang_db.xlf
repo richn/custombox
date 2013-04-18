@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-04-08T17:20:39Z" product-name="custombox">
+		<header/>
+		<body>
+
+			<trans-unit id="tx_custombox_domain_model_custombox">
+				<source>Custom Box</source>
+			</trans-unit>
+			<trans-unit id="tx_custombox_domain_model_custombox.boxinhalt">
+				<source>Boxinhalt</source>
+			</trans-unit>
+
+			<trans-unit id="tx_custombox_domain_model_boxinhalt">
+				<source>Box Inhalt</source>
+			</trans-unit>
+			<trans-unit id="tx_custombox_domain_model_boxinhalt.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_custombox_domain_model_boxinhalt.text">
+				<source>Text</source>
+			</trans-unit>
+			<trans-unit id="tx_custombox_domain_model_boxinhalt.link">
+				<source>Link</source>
+			</trans-unit>
+			<trans-unit id="tx_custombox_domain_model_boxinhalt.special">
+				<source>Special</source>
+			</trans-unit>
+			<trans-unit id="tx_custombox_domain_model_boxinhalt.ueberschrift">
+				<source>Ueberschrift</source>
+			</trans-unit>
+			<trans-unit id="tx_custombox_domain_model_boxinhalt.leer">
+				<source>Leer</source>
+			</trans-unit>
+			<trans-unit id="tx_custombox_domain_model_boxinhalt.bild">
+				<source>Bild</source>
+			</trans-unit>
+			<trans-unit id="tx_custombox_domain_model_boxinhalt.titleonly">
+				<source>Titleonly</source>
+			</trans-unit>
+			<trans-unit id="tx_custombox_domain_model_boxinhalt.icon">
+				<source>Icon</source>
+			</trans-unit>
+
+			<trans-unit id="tx_custombox_domain_model_icon">
+				<source>Icon</source>
+			</trans-unit>
+			<trans-unit id="tx_custombox_domain_model_icon.iconname">
+				<source>Iconname</source>
+			</trans-unit>
+			<trans-unit id="tx_custombox_domain_model_icon.iconclass">
+				<source>Iconclass</source>
+			</trans-unit>
+			<trans-unit id="tx_custombox_domain_model_icon.iconcontent">
+				<source>Iconcontent</source>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>

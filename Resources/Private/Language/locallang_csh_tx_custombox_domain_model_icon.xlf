@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-04-08T17:20:39Z" product-name="custombox">
+		<header/>
+		<body>
+
+			<trans-unit id="iconname.description">
+				<source>Icon Name</source>
+			</trans-unit>
+			<trans-unit id="iconclass.description">
+				<source>Icon Class</source>
+			</trans-unit>
+			<trans-unit id="iconcontent.description">
+				<source>Content</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,68 @@
+<f:layout name="Default" />
+
+This Template is responsible for creating a table of domain objects.
+
+If you modify this template, do not forget to change the overwrite settings
+in /Configuration/ExtensionBuilder/settings.yaml:
+  Resources:
+    Private:
+      Templates:
+        List.html: keep
+
+Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+<f:section name="main">
+
+<f:flashMessages />
+
+	<f:for each="{customBoxes}" as="customBox">
+
+		<f:for each="{customBox.boxinhalt}" as="boxinhalt" iteration="inhaltIT">
+
+		<f:if condition="{boxinhalt.ueberschrift}">
+			<f:then>
+
+				<h5 class="{f:if(condition: inhaltIT.isOdd,then:'odd',else:'even')} clearfix"><em>{boxinhalt.title}</em></h5>
+
+			</f:then>
+			<f:else>
+
+				<div class="bspecial {f:if(condition: inhaltIT.isOdd,then:'odd',else:'even')}<f:if condition="{boxinhalt.icon.iconclass}"><f:then> hasIcon</f:then><f:else> noIcon</f:else></f:if><f:if condition="{boxinhalt.leer}"> hidden</f:if><f:if condition="{boxinhalt.special}"> highlight</f:if><f:if condition="{boxinhalt.titleonly}"> titleonly</f:if>">
+					<div class="inside">
+
+						<f:if condition="{boxinhalt.titleonly}">
+							<f:then>
+								<h4><f:if condition="{boxinhalt.link}">
+									<a href="{boxinhalt.link}"></f:if>{boxinhalt.title}<f:if condition="{boxinhalt.link}"></a>
+								</f:if></h4>
+							</f:then>
+							<f:else>
+				
+							<h4><f:if condition="{boxinhalt.link}">
+								<a href="{boxinhalt.link}"></f:if>{boxinhalt.title}<f:if condition="{boxinhalt.link}"></a>
+							</f:if></h4>
+
+							<f:format.html>{boxinhalt.text}</f:format.html>
+
+							<f:if condition="{boxinhalt.icon.iconclass}">
+								<f:then>
+									<span class="icon {boxinhalt.icon.iconclass}"><f:format.html>{boxinhalt.icon.iconcontent}</f:format.html></span>
+								</f:then>
+							</f:if>
+
+							<f:if condition="{boxinhalt.bild}"><img src="uploads/tx_custombox/{boxinhalt.bild}" alt=""></f:if>
+
+						</f:else>
+						</f:if>
+
+					</div><!-- //inside -->
+				</div><!-- //bspecial -->
+
+			</f:else>
+		</f:if>
+
+		</f:for>
+
+	</f:for>
+
+</f:section>

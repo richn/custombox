@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-04-08T17:20:39Z" product-name="custombox">
+		<header/>
+		<body>
+
+			<trans-unit id="title.description">
+				<source>Titel</source>
+			</trans-unit>
+			<trans-unit id="text.description">
+				<source>Text</source>
+			</trans-unit>
+			<trans-unit id="link.description">
+				<source>link</source>
+			</trans-unit>
+			<trans-unit id="special.description">
+				<source>Special Box</source>
+			</trans-unit>
+			<trans-unit id="ueberschrift.description">
+				<source>Überschrift</source>
+			</trans-unit>
+			<trans-unit id="leer.description">
+				<source>Leer (hinter Überschrift)</source>
+			</trans-unit>
+			<trans-unit id="bild.description">
+				<source>Bild</source>
+			</trans-unit>
+			<trans-unit id="titleonly.description">
+				<source>Nur Titel?</source>
+			</trans-unit>
+			<trans-unit id="icon.description">
+				<source>icon</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2013-04-08T17:20:39Z" product-name="custombox">
+		<header/>
+		<body>
+
+			<trans-unit id="tx_custombox_domain_model_custombox">
+				<source>CustomBox</source>
+			</trans-unit>
+			<trans-unit id="tx_custombox_domain_model_custombox.boxinhalt">
+				<source>Box Inhalt</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_custombox_domain_model_boxinhalt">
+				<source>BoxInhalt</source>
+			</trans-unit>
+			<trans-unit id="tx_custombox_domain_model_boxinhalt.title">
+				<source>Titel</source>
+			</trans-unit>
+			<trans-unit id="tx_custombox_domain_model_boxinhalt.text">
+				<source>Text</source>
+			</trans-unit>
+			<trans-unit id="tx_custombox_domain_model_boxinhalt.link">
+				<source>link</source>
+			</trans-unit>
+			<trans-unit id="tx_custombox_domain_model_boxinhalt.special">
+				<source>Special Box</source>
+			</trans-unit>
+			<trans-unit id="tx_custombox_domain_model_boxinhalt.ueberschrift">
+				<source>Überschrift</source>
+			</trans-unit>
+			<trans-unit id="tx_custombox_domain_model_boxinhalt.leer">
+				<source>Leer (hinter Überschrift)</source>
+			</trans-unit>
+			<trans-unit id="tx_custombox_domain_model_boxinhalt.bild">
+				<source>Bild</source>
+			</trans-unit>
+			<trans-unit id="tx_custombox_domain_model_boxinhalt.titleonly">
+				<source>Nur Titel?</source>
+			</trans-unit>
+			<trans-unit id="tx_custombox_domain_model_boxinhalt.icon">
+				<source>icon</source>
+			</trans-unit>
+			
+			<trans-unit id="tx_custombox_domain_model_icon">
+				<source>Icon</source>
+			</trans-unit>
+			<trans-unit id="tx_custombox_domain_model_icon.iconname">
+				<source>Icon Name</source>
+			</trans-unit>
+			<trans-unit id="tx_custombox_domain_model_icon.iconclass">
+				<source>Icon Class</source>
+			</trans-unit>
+			<trans-unit id="tx_custombox_domain_model_icon.iconcontent">
+				<source>Content</source>
+			</trans-unit>
+			
+		</body>
+	</file>
+</xliff>
